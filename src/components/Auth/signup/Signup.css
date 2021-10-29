@@ -1,0 +1,131 @@
+.signup-container {
+    text-align: center;
+}
+
+
+.signup-content {
+    background: #fff;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    border-radius: 2px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;    
+    padding: 35px;
+}
+
+.social-btn {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.social-btn img {
+    height: 32px;
+    float: left;
+    margin-top: 10px;
+}
+
+.social-btn.google {
+    margin-top: 7px;
+}
+
+.social-btn.facebook img {
+    height: 24px;
+    margin-left: 3px;
+}
+
+.social-btn.github img {
+    height: 24px;
+    margin-left: 3px;
+}
+
+.login-link {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+}
+
+.signup-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+/**
+  Button
+**/
+
+
+.btn-login {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 0 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 45px;
+    line-height: 45px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    position: relative;
+    color: rgba(0,0,0,.65);
+    background-color: transparent;
+    border-color: #e8e8e8;
+    outline: none;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .btn-lg {
+    padding: 0 30px;
+  }
+  
+  .btn-primary {
+      color: #fff;
+      background-color: #2098f3;
+      border-color: #2098f3;  
+  } 
+  
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  .btn-success {
+      color: #fff;
+      background-color: #52c41a;
+      border-color: #52c41a;    
+  }
+  
+  .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+    background-color: #52c41a;
+    border-color: #52c41a;
+  }
+  
+  
+  .btn-link {
+    border: none;
+    height: 34px;
+    padding: 0 15px;
+  }
+  
+  .btn-link:hover {
+    background-color: rgba(158,158,158, 0.20);
+  }
+  
